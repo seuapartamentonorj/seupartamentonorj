@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corretora Gabr - Lançamentos Imobiliários</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section-title {
+            color: #f00;
+        }
+        .highlight {
+            color: #ff69b4;
+        }
+        .contact-info {
+            color: #32cd32;
+        }
+        .social-links a {
+            color: #1e90ff;
+            margin-right: 15px;
+        }
+        .portfolio img {
+            width: 100%;
+            height: auto;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form input, form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        form button {
+            padding: 10px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Corretora Gabr</h1>
+        <nav>
+            <a href="#sobre-mim">Sobre Mim</a>
+            <a href="#lancamentos">Lançamentos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section id="sobre-mim" class="container">
+        <h2 class="section-title">Sobre Mim</h2>
+        <p>Eu sou Gabriele, corretora de imóveis, mais conhecida como Corretora Gabr. Especialista em lançamentos, trabalho para ajudar meus clientes a encontrar os melhores imóveis da Construtora Cury no Rio de Janeiro.</p>
+    </section>
+
+    <section id="lancamentos" class="container">
+        <h2 class="section-title highlight">Lançamentos Mais Recentes</h2>
+        <!-- Adicione aqui os vídeos dos lançamentos -->
+        <div class="portfolio">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="portfolio">
+            <img src="link-da-imagem-do-porto-maravilha.jpg" alt="Porto Maravilha">
+        </div>
+        <!-- Adicione mais imagens conforme necessário -->
+    </section>
+
+    <section id="contato" class="container">
+        <h2 class="section-title contact-info">Contato</h2>
+        <p>Telefone: 21994245035</p>
+        <p>Email: <a href="mailto:gabriele@example.com">gabriele@example.com</a></p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/corretoragabr">Facebook</a>
+            <a href="https://www.instagram.com/corretoragabr">Instagram</a>
+            <!-- Adicione outros links de redes sociais conforme necessário -->
+        </div>
+        <form>
+            <input type="text" name="name" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu Email" required>
+            <textarea name="message" rows="5" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Corretora Gabr - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
